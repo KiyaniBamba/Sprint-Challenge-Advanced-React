@@ -12,10 +12,12 @@
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "nodemon": "^1.17.2"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "jest --watchAll"
   },
   "author": "Lambda School",
   "license": "ISC"
