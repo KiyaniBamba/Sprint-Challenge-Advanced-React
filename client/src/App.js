@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import NavBar from './NavBar.jsx';
 import PlayersData from './playersData.js';
-import Container from './Container.js';
+// import Container from './Container.js';
 
 import "./index.css";
 
@@ -30,9 +30,9 @@ export default class App extends Component {
     return(
       <div>
       <NavBar/>
-      <Container>
+      {/* <Container> */}
       <PlayersData props={this.state.players}/>
-      </Container>
+      {/* </Container> */}
       </div>
     )
   }
