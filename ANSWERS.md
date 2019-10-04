@@ -1,5 +1,5 @@
 - [ ] Why would you use class component over function components (removing hooks from the question)?
-class component are more pratical to use with data persistances
+class component are more pratical to use with data persistances.
 
 
 
