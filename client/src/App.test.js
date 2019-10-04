@@ -26,3 +26,10 @@ describe('the navbar componen is correctly load', () => {
       expect(tools.queryByText(/Cup/)).toBeInTheDocument();
     });
   });
+
+  describe('the API is correctly load', () => { 
+    it('Loads player name', () => {
+        expect(tools.queryByText(/Morgan/)).toBeInTheDocument();
+      });
+    });
+  
