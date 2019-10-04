@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const UserCard = styled.div`
     font-family: sans-serif;
-    max-width: 900px;
+    max-width: auto;
     height: auto;
     border: 1px solid black;
     box-shadow: 10px 10px 28px -2px gray;
