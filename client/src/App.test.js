@@ -29,7 +29,7 @@ describe('the navbar componen is correctly load', () => {
 
   describe('the API is correctly load', () => { 
     it('Loads player name', () => {
-        expect(tools.queryByText(/Morgan/)).toBeInTheDocument();
+        expect(tools.queryByText(/Alex Morgan/)).toBeInTheDocument();
       });
     });
   
